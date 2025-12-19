@@ -1,0 +1,15 @@
+Checklist de requisitos (implementación y dónde se cumple)
+
+1. Servidor en C (Sockets Berkeley): server.c (compila con Makefile) - IMPLEMENTADO
+2. Concurrencia con hilos (pthread): server.c usa pthread_create para clientes y simulador - IMPLEMENTADO
+3. Telemetría cada 10s y parada 20s en estación; 5 estaciones invierte marcha - IMPLEMENTADO en metro_thread
+4. Comandos: SPEEDUP, SLOWDOWN, STOPNOW, STARTNOW - IMPLEMENTADO (validación de baterías)
+5. Autenticación admin y LISTUSERS: AUTH|... y LISTUSERS - IMPLEMENTADO
+6. Logging en consola y archivo con identificador ip:port - IMPLEMENTADO (archivo especificado al ejecutar)
+7. Clientes en 2 lenguajes con GUI: client_python.py (Tkinter) y ClientGUI.java (Swing) - IMPLEMENTADO
+8. Mensajes en texto y terminadores '\\n' (TELEMETRY|..., COMMAND|..., RESPONSE|...) - IMPLEMENTADO
+9. Manejo de excepciones básicas (conexiones caídas, mensajes inválidos) - IMPLEMENTADO
+10. Makefile y README incluidos - IMPLEMENTADO
+11. Documento del protocolo en Word - Protocolo_Metro_Autonomo.docx incluido
+ 
+ 

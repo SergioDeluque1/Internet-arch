@@ -1,0 +1,27 @@
+# Dependencias del Sistema de Metro Autónomo
+# Proyecto de Telemática - EAFIT
+
+# No se requieren dependencias externas adicionales
+# El proyecto utiliza únicamente bibliotecas estándar de Python 3.x
+
+# Para desarrollo y pruebas (opcional):
+# unittest - incluido en Python estándar
+# threading - incluido en Python estándar  
+# socket - incluido en Python estándar
+# json - incluido en Python estándar
+# time - incluido en Python estándar
+# math - incluido en Python estándar
+# random - incluido en Python estándar
+# dataclasses - incluido en Python 3.7+
+
+# Si necesitas instalar Python:
+# - Descargar desde https://www.python.org/downloads/
+# - Versión mínima requerida: Python 3.7+
+
+# Para ejecutar el proyecto:
+# python main.py
+
+# Para ejecutar las pruebas:
+# python -m pytest tests/ 
+# o
+# python tests/test_metro_system.py
