@@ -1,10 +1,8 @@
 #  Sistema de Metro Autónomo. Aplicación Protocolo TCP/IP con un AWS EC2
 
-## ✅ PROBLEMA SOLUCIONADO
-
 Los botones **SPEEDUP**, **SLOWDOWN**, **STOPNOW**, **STARTNOW** y **LISTUSERS** ahora están disponibles en el cliente GUI mejorado.
 
-## 🚀 Cómo Ejecutar el Sistema Completo
+## Cómo Ejecutar el Sistema Completo
 
 ### Opción 1: Ejecución Automática
 ```batch
@@ -24,7 +22,7 @@ ejecutar_sistema.bat
    python client_metro_json.py
    ```
 
-## 🎛️ Funcionalidades del Cliente GUI
+##  Funcionalidades del Cliente GUI
 
 ### 📊 **Panel de Estado del Sistema**
 - **Estado Servidor**: Conectado/Desconectado
@@ -34,7 +32,7 @@ ejecutar_sistema.bat
 - **Batería**: Nivel de batería promedio
 - **Dirección**: Dirección de operación
 
-### 🎮 **Controles de Operación (Solo Admin)**
+### **Controles de Operación (Solo Admin)**
 
 #### **Primera Fila - Controles Principales:**
 - **⬆️ SPEEDUP**: Aumentar velocidad de los trenes
@@ -52,28 +50,28 @@ ejecutar_sistema.bat
 
 ## 👤 **Roles de Usuario**
 
-### 🔍 **Observer (Observador)**
-- ✅ Ver estado del sistema
-- ✅ Recibir alertas
-- ✅ Monitoreo en tiempo real
-- ❌ No puede enviar comandos
+###  **Observer (Observador)**
+-  Ver estado del sistema
+- Recibir alertas
+-  Monitoreo en tiempo real
+- No puede enviar comandos
 
-### 👨‍💼 **Admin (Administrador)**
-- ✅ Todas las funciones de Observer
-- ✅ Enviar comandos de control
-- ✅ Modificar velocidad de trenes
-- ✅ Parar/iniciar sistema
-- ✅ Ver lista de usuarios
+###  **Admin (Administrador)**
+-  Todas las funciones de Observer
+-  Enviar comandos de control
+-  Modificar velocidad de trenes
+-  Parar/iniciar sistema
+-  Ver lista de usuarios
 
-## 🌐 **Configuración de Red**
+##  **Configuración de Red**
 
 - **Servidor**: 127.0.0.1:8080
 - **Protocolo**: JSON sobre TCP/IP
 - **Cliente Compatible**: `client_metro_json.py`
 
-## 📋 **Estado del Sistema**
+##  **Estado del Sistema**
 
-### ✅ **Componentes Funcionando:**
+###  **Componentes Funcionando:**
 - Sistema de metro con 5 estaciones
 - 3 trenes operativos (Alpha, Beta, Gamma)
 - 2 líneas de metro
@@ -90,15 +88,15 @@ ejecutar_sistema.bat
 - `STARTNOW` - Iniciar operación
 - `LISTUSERS` - Listar usuarios conectados
 
-## 📝 **Log de Comunicación**
+##  **Log de Comunicación**
 
 El cliente muestra todos los mensajes intercambiados:
-- 📤 Mensajes enviados al servidor
-- 📨 Mensajes recibidos del servidor
-- ⚠️ Alertas del sistema
-- ✅ Confirmaciones de comandos
+-  Mensajes enviados al servidor
+-  Mensajes recibidos del servidor
+-  Alertas del sistema
+- Confirmaciones de comandos
 
-## 🆘 **Solución de Problemas**
+##  **Solución de Problemas**
 
 ### **Si no aparecen los botones:**
 1. Usar `client_metro_json.py` (NO `client_python.py`)
