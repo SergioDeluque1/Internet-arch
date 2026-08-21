@@ -1,6 +1,5 @@
 #  Sistema de Metro Autónomo. Aplicación Protocolo TCP/IP con un AWS EC2
 
-Los botones **SPEEDUP**, **SLOWDOWN**, **STOPNOW**, **STARTNOW** y **LISTUSERS** ahora están disponibles en el cliente GUI mejorado.
 
 ## Cómo Ejecutar el Sistema Completo
 
