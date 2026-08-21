@@ -1,4 +1,8 @@
-#  Sistema de Metro Autónomo. Aplicación Protocolo TCP/IP con un AWS EC2
+#  Sistema de Metro Autónomo
+ - Aplicación Protocolo TCP/IP con un AWS EC2
+ - conexión API client-side
+ - manejo de credenciales server-side
+ - load balancer y reverse proxy
 
 
 ## Cómo Ejecutar el Sistema Completo
